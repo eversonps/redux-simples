@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
       <div className='linha'>
-        <Intervalo title="Card 1" red>X</Intervalo>
+        <Card title="Card 1" red>X</Card>
       </div>
       <div className='linha'>
         <Card title="Card 2" purple>X</Card>
