@@ -2,7 +2,8 @@ import React from "react"
 import Card from "./Card"
 
 export default props => {
-    const {min, max} = props
+    const min = props.min
+    const max = props.max
 
     return (
         <Card title="Média dos Numeros" blue>

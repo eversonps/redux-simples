@@ -1,15 +1,13 @@
-import React from "react"
+import React, {useState} from "react"
 import Card from "./Card"
 
 export default props => {
-    const {min, max} = props
-
     return (
-        <Card title="Média dos Numeros" blue>
+        <Card title="Soma dos Numeros" purple>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>{(max + min) / 2}</strong>
+                    <strong>10</strong>
                 </span>
             </div>
         </Card>

@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
       <div className='linha'>
-        <Intervalo title="Card 1" red min={min} max={max} onMinChanged={setMin} onMaxChanged={setMax}>X</Intervalo>
+        <Intervalo title="Card 1" red>X</Intervalo>
       </div>
       <div className='linha'>
         <Media min={min} max={max}></Media>
