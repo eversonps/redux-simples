@@ -1,4 +1,5 @@
 import {createStore, combineReducers} from "redux"
+import numeros from "./reducers/numeros"
 
 import numerosReducers from "./reducers/numeros"
 

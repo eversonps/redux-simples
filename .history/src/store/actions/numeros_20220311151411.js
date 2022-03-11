@@ -9,7 +9,7 @@ export function alterarNumeroMinimo(novoNumero){
 
 export function alterarNumeroMaximo(novoNumero){
     return {
-        type: NUM_MAX_ALTERADO,
+        type: "NUM_MAX_ALTERADO",
         payload: novoNumero
     }
 }
