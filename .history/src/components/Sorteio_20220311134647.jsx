@@ -2,12 +2,14 @@ import React from "react"
 import Card from "./Card"
 
 export default props => {
+    const aleatorio = parseInt(Math.random() * (max - min)) + min
+
     return (
-        <Card title="Soma dos Numeros" purple>
+        <Card title="Sorteio de um Numero" green>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>10</strong>
+                    <strong>{aleatorio}</strong>
                 </span>
             </div>
         </Card>

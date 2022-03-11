@@ -5,16 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {Provider} from "react-redux"
-import storeConfig from "./store/storeConfig"
 
-const store = storeConfig()
 
 ReactDOM.render(
-  <Provider store={store}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Provider>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
