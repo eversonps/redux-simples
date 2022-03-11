@@ -1,16 +1,16 @@
 import React from "react"
 import Card from "./Card"
+import {connect} from "react-redux"
 
-import { connect } from "react-redux"
-
-const Soma = props => {
+const Media = props => {
     const {min, max} = props
+    
     return (
-        <Card title="Soma dos Numeros" purple>
+        <Card title="Média dos Numeros" blue>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>{min + max}</strong>
+                    <strong>{5}</strong>
                 </span>
             </div>
         </Card>
@@ -24,4 +24,4 @@ function mapStateToProps(state){
     }
 }
 
-export default connect(mapStateToProps)(Soma)
+export default connect(mapStateToProps)(Media)
