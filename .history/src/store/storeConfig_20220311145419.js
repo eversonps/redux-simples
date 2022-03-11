@@ -17,7 +17,7 @@ const reducers = combineReducers({
             default:
                 return {
                     min: 7,
-                    max: 60
+                    max:60
                 }
         }
     },
